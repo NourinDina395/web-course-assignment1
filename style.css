@@ -259,4 +259,115 @@ h1 {
         max-width: 400px;
         height: auto;
     }
+
+
+
+
+.apps-frame {
+    width: 1600px;
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    padding: 120px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 1);
+
 }
+
+.split-container {
+    width: 1360px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+    box-sizing: border-box;
+}
+
+.illustration-side {
+    flex: 1;
+    position: relative;
+    height: 100%;
+}
+
+.knowledgeImg {
+    width: 500px;
+    height: 600px;
+    border-radius: 16px;
+}
+
+.central-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+      transform: translate(-50%, -50%);
+    width: 260px;
+    height: 260px;
+}
+
+.central-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.description-side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    padding: 40px 0;
+}
+
+.description-side h2 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0;
+    color: #333;
+}
+
+.description-side p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    color: #555;
+}
+
+.description-side ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.description-side ul li {
+    font-size: 18px;
+    line-height: 1.5;
+    position: relative;
+    padding-left: 36px;
+    color: #555;
+    
+}
+
+.description-side ul li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 20px;
+    height: 20px;
+    background: url("assets/CheckCircle.png") center/contain no-repeat;
+}
+
+
+
+
+
