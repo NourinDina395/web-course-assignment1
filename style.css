@@ -82,7 +82,7 @@ nav a:hover {
   cursor: pointer;
 }
 
-/* Hero Section - Updated background */
+
 .hero {
     background: url('assets/hero-bg.png'), #fff;
     color: #fff;
@@ -156,3 +156,107 @@ h1 {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+
+.problems-dark {
+    background-color: #fff; 
+    padding: 80px 0;         
+    text-align: center;
+}
+
+.problems-dark .container {
+    max-width: 1360px;       
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.problems-dark h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: black;         
+    margin-bottom: 16px;
+}
+
+.problems-dark .section-subtitle {
+    font-size: 18px;
+    color: #64748b;          
+    margin-bottom: 60px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.problems-grid {
+    width: 1360px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;  
+    align-items: flex-start;
+    gap: 24px;                     
+    margin: 0 auto;             
+}
+
+.problem-card {
+    flex: 1;                      
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 40px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    height: 100%;                 
+}
+
+.problem-card .icon {
+    width: 64px;
+    height: 64px;
+    background-color: #ef4444;    
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    background-size: 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* White SVG icons inside red circles */
+.icon.scattered {
+    background-image: url('assets/Vector.png');
+}
+
+.icon.bookmark {
+    background-image: url('assets/Bookmarks.png');
+}
+
+.icon.connections {
+    background-image: url('assets/Brain.png');
+}
+
+.icon.forgetting {
+    background-image: url('assets/Info.png');
+}
+
+.problem-card h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #0f172a;               
+    margin-bottom: 16px;
+}
+
+.problem-card p {
+    font-size: 16px;
+    color: #64748b;               
+    line-height: 1.6;
+}
+
+
+    .problem-card {
+        max-width: 400px;
+        height: auto;
+    }
+}
