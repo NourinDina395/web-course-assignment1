@@ -440,3 +440,132 @@ h1 {
 
 
 
+.footer {
+    width: 1600px;
+    height: 348px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 80px;
+    padding: 120px 120px 30px 120px;
+    box-sizing: border-box;
+    background-color: #0b1622;
+}
+
+.footer-content {
+    width: 1360px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    height: 60px;
+    width: auto;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.kv {
+    color: #00ff9d;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+
+.social-links h5 {
+    color: white;
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    gap: 16px;
+    
+    align-items: flex-start;
+}
+
+.social-links a {
+    color: #cbd5e0;
+    font-size: 24px;
+    transition: color 0.3s;
+    text-decoration: none;
+    margin: 4px;   
+}
+
+.social-links a:hover {
+    color: #00ff9d;
+}
+
+.subtitle {
+    color: #a0aec0;
+    font-size: 14px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+}
+
+.social-links h5 {
+    color: white;
+    font-size: 16px;
+    margin: 0;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;   /* same line */
+    gap: 16px;
+}
+
+.social-icons a {
+    color: #cbd5e0;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #00ff9d;
+}
+
+
+.footer-bottom {
+    width: 1360px;
+    height: 54px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.footer-bottom hr {
+    width: 100%;
+    border: 0.5px solid #444;
+}
+
+.footer-bottom .copyright {
+    color: #718096;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}
